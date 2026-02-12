@@ -12,7 +12,7 @@ class DistanceDuration(BaseModel):
 
 app = FastAPI(title = 'Run toolz')
 
-@app.post('/avg_pace')
+@app.post('/avg_pace', tags=['pace'], summary='Calculate AVG pace by distance and time')
 def avgPace(data: DistanceDuration ):
     
     duration_minutes = (60 * data.hours) + data.minutes + (data.seconds / 60)
