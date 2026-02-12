@@ -22,7 +22,5 @@ def avgPace(distance: float, duration: duration ):
     
         
     return {
-            "distance": distance,
-            "minutes": duration_minutes,
             "pace": pace_m + ':' + str(pace_s)[0:2]
         }
