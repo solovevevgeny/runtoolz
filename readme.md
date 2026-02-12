@@ -1,4 +1,4 @@
-#Runner's App:
+# Runner's App:
 
 
 * ~~Convert distance + time to average pace~~
