@@ -1,3 +1,6 @@
-Runner's App:
-1. Convert distance + time to average pace
-2. Convert 200/400/600m pace to seconds
+#Runner's App:
+
+
+* ~~Convert distance + time to average pace~~
+* Convert 200/400/600m pace to seconds
+* Convert Pace to Kmph (<->)
